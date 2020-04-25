@@ -1,1 +1,12 @@
-This is my test
+
+     if(command.commandType === "STATUS_CHECK"){
+        results.push({
+                       "completed": true,
+                        "roverStatus":{
+                        "position": this.position,
+                        "mode": this.mode,
+                        "generatorWatts": this.generatorWatts
+                       
+                        }
+                       });
+
